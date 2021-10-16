@@ -1,0 +1,313 @@
+.anchofila{
+    width:40%;
+  }
+
+  .anchoimagen{
+    width:150px !important;
+    margin:10px !important;
+  }
+
+  .bordesredondos{
+    border-radius:15px;
+  }
+
+
+  .columnas2{
+    padding:8px;
+    text-align:left;
+    margin-bottom:5px;
+    font-family:'Times New Roman';
+    box-shadow: 0px 10px 10px -6px black;
+    height:320px;
+  }
+
+  .espaciado{
+    padding:10px;
+  }
+
+  .flexslider .slides img {
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px -6px black;
+    height: auto;
+}
+.flexslider .slides h2 {
+    margin-top:5px;
+    font-family:'Times New Roman';
+}
+.flex-control-thumbs img{
+    border-radius:10px;
+    margin-right:6px;
+}
+
+.espacio{
+    border-radius:10px;
+   }
+
+   #main-menu > a{
+    background-color:#e72026;
+  }
+
+  .block-column .grid__content {
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    font-family:'Times New Roman';
+    
+    height:360px;
+    border-radius:8px;
+}
+
+.block-column .grid__content h4{
+  text-transform:uppercase;
+  color:#fff;
+  font-weight:bold;
+  position:absolute;
+  /*top:5px;*/
+  margin-left:5px;
+  left:5px;
+  padding:8px;
+  background-color:red;
+  border-radius:10px;
+  font-size:12px;
+  font-family:'Times New Roman';
+  
+}
+/*.columnas{*/
+  /*border-left:1px dotted #000;*/
+  /*border-right:1px dotted #000;*/
+  
+/*  padding:8px;*/
+  /*text-align:center;*/
+/*  margin-bottom:5px;*/
+/*  font-family:'Times New Roman';*/
+/*  box-shadow: 0px 5px 8px -6px black;*/
+/*  height:360px;*/
+/*  position:relative;*/
+/*  border-radius:8px;*/
+  
+  
+/*}*/
+
+/*.columnas h4{*/
+/*  text-transform:uppercase;*/
+/*  color:#f1eb8ae1;*/
+/*  font-weight:bold;*/
+/*  position:absolute;*/
+/*  top:8px;*/
+/*  margin-left:10px;*/
+  /*right:10px;*/
+/*  padding:8px;*/
+/*  background-color:#f19a9a7e;*/
+/*  border-radius:10px;*/
+/*  font-size:18px;*/
+  
+  
+/*}*/
+
+.block-column .grid__content h4:hover{
+color:yellow;
+}
+
+.block-column .grid__content h3{
+  text-decoration:none;
+  font-size:20px;
+  color:#e72026;
+  font-family:'Times New Roman';
+}
+
+.block-column .grid__content a {
+  text-decoration:none;
+  font-family:'Times New Roman';
+}
+
+.block-column .grid__content a:hover{
+  color:grey;
+}
+
+.block-column .grid__content img{
+  border-radius:10px;
+  height:220px;
+  box-shadow: 0px 5px 8px -6px black;
+  
+}
+
+@media (max-width: 375px){
+  .block-column .grid__content img{
+     width:100%;
+  
+  }
+}
+
+@media (max-width: 425px){
+  .block-column .grid__content img{
+     width:100%;
+  
+  }
+}
+@media (max-width: 768px){
+  .block-column .grid__content img{
+     width:80%;
+  
+  }
+}
+
+/*@media (max-width: 1024px){*/
+/*  .block-column .grid__content img{*/
+/*     width:80%;*/
+  
+/*  }*/
+/*}*/
+
+
+.formato_categorias{
+    margin-bottom:0px;
+  }
+  
+  .region-sidebar-first .field-content > a{
+    color:#fff;
+  }
+  
+  .region-sidebar-second .field-content > a{
+    color:#fff;
+  }
+  
+  .region-content .field-content > a{
+    color:#fff;
+  }
+  
+  .region-middle-first a{
+    font-family:'Times New Roman';
+  }
+  
+
+  .texto{
+    font-family:'Times New Roman';
+    font-size:14px;
+    text-align:justify;
+  }
+  
+  /*.layout__region{*/
+  /*  padding:20px;*/
+  /*}*/
+  
+  /*.block-statistics-popular-block > h2{*/
+  /*  font-family:'Times New Roman';*/
+  /*  color:#e72026;*/
+  /*  font-weight:bold;*/
+  /*}*/
+  
+  /*.block-statistics-popular-block > h3{*/
+  /*  font-family:'Times New Roman';*/
+  /*  color:#e72026;*/
+  /*  font-weight:bold;*/
+  /*}*/
+  
+  /*.block-statistics-popular-block > ul > li{*/
+  /*  list-style-type:none;*/
+  /*  font-family:'Times New Roman';*/
+  /*  font-size:18px;*/
+    
+    
+  /*}*/
+  
+  /*.block-statistics-popular-block > ul > li > a{*/
+  /*  color:#000;*/
+  /*  text-decoration:none;*/
+  /*}*/
+  
+  /*.block-statistics-popular-block > ul > li > a:hover{*/
+  /*  color:#e72026;*/
+  /*}*/
+  
+  /*.block-views-blockcontent-recent-block-1 > h2{*/
+  /*  font-family:'Times New Roman';*/
+  /*  color:#e72026;*/
+  /*  font-weight:bold;*/
+  /*}*/
+  
+  /*.views-field-changed > span{*/
+  /*  font-size:18px;*/
+  /*  color:#e72026;*/
+  /*}*/
+
+  .cpx {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cpx:hover {
+    text-decoration: none;
+    color: #FF3333;
+}
+
+.cpxcondiciones {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.cpxcondiciones:hover {
+    text-decoration: none;
+    color: #FF3333;
+}
+
+/* https://www.creativosonline.org/efectos-css-texto.html   https://codepen.io/bosworthco/pen/YWBLpR */
+.perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.333);
+}
+
+.perspective-line {
+    position: relative;
+}
+
+.perspective-line:hover p {
+    transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+    left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+    left: 58px;
+}
+
+.perspective-line:nth-child(3) {
+    left: 87px;
+}
+
+.perspective-line:nth-child(4) {
+    left: 116px;
+}
+
+.perspective-line:nth-child(5) {
+    left: 145px;
+}
+
+.perspective-line:hover p {
+    transform: translate(0, -50px);
+}
+
+p {
+    transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:hover p {
+    transform: translate(0, -50px);
+}
+  
+*{
+    margin:0px;
+    padding:0px
+    box-sizing:border-box;
+  }
+    
+  
+  

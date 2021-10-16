@@ -1,0 +1,48 @@
+{% block content %}
+
+
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <form class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Datos Colaborador</h2>
+                    <hr>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="usuario" class="form-label">Identificación:</label>
+                    <input type="text" class="form-control" id="usuario" placeholder="ingrese identificador">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre completo">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="cargo" class="form-label">Cargo:</label>
+                    <input type="text" class="form-control" id="cargo" placeholder="Ingrese Cargo">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="email" class="form-label">Correo:</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Ingrese correo">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="area_zona" class="form-label">Area o Zona:</label>
+                    <input type="text" class="form-control" id="areazona" placeholder="Ingrese Área o zona">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="Ingrese Área o zona">
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary mt-2">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+{% endblock  %}

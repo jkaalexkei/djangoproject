@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .cabecera{
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        
+    }
+
+    .cabecera .logo{
+        background-color: #D43D28;
+        margin:auto 0px;
+        width: 20%;
+        height: 170px;
+        
+        }
+
+    .cabecera .encabezado{
+        background-color: #6492CE;
+        width: 79%;
+        margin:auto;
+        height: 170px;
+        padding:10px;
+    }
+
+    .encabezado .titulo{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        
+
+    }
+
+    .encabezado .Subtitulo{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+    }
+
+    .navegacion{
+        margin-top: 10px;
+    }
+    .navegacion ul{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 50%;
+        margin: auto;
+        padding: 5px;
+        
+        
+    }
+
+    .navegacion ul li{
+        list-style: none;
+        
+        margin: auto;
+        
+
+    }
+    
+    .navegacion ul li a{
+        color: brown;
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        
+        width: 100%;
+        height: auto;
+        padding: 3px;
+    }
+
+    .navegacion ul li a:hover{
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .seccion_contenido{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        /* background-color: grey; */
+        padding: 40px;
+        margin-top: 10px;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .seccion_contenido .aside{
+        width: 20%;
+    }
+
+    .seccion_contenido .aside div h1{
+        font-size: 2em;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .seccion_contenido .aside div ul li{
+        font-size: 1.2em;
+        
+    }
+
+    .seccion_contenido .textos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .textos article h2{
+        font-size: 2em;
+        margin: 10px;
+
+    }
+    
+    .textos article > p{
+        font-size: 1.2em;
+        margin:10px;
+        text-align: justify;
+        
+    }
+
+    .parrafos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 10px;
+
+    }
+
+    .parrafos div{
+        width: 30%;
+        margin: 10px;
+        margin: auto;
+        
+        
+    }
+
+    .parrafos div p{
+        text-align: justify;
+        font-size: 1.2em;
+        
+    }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</style>
+<body>
+    <main class="principal">
+        <section class="cabecera">
+            <div class="logo"></div>
+            <div class="encabezado">
+                <p class="titulo">HTML & CSS:</p>
+                <p class="Subtitulo">Curso práctico avanzado</p>
+            </div>
+        </section>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="">Comprar</a></li>
+                <li><a href="">Índice</a></li>
+                <li><a href="">Acrónimos</a></li>
+                <li><a href="">Vídeos</a></li>
+                <li><a href="">Ejercicios</a></li>
+                <li><a href="">Contenido extra</a></li>
+                <li><a href="">El autor</a></li>
+                <li><a href="">Contacto</a></li>
+                         
+            </ul>
+        </nav>
+        <section class="seccion_contenido">
+            <aside class="aside">
+                <div>
+                    <h1>Lorem ipsum dolor sit</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Earum omnis delectus sunt totam.</li>
+                        <li>Ea praesentium modi inventore voluptatum?</li>
+                        <li>Nam nisi minus a perspiciatis.</li>
+                        <li>Dolorem mollitia facilis aliquam ipsam?</li>
+                        <li>Odit officiis praesentium fugit distinctio?</li>
+                    </ul>
+                </div>
+
+            </aside>
+            <section class="textos">
+                <article>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo, iste temporibus nostrum voluptatibus laboriosam? Odio atque nihil corrupti explicabo nulla rem fugit illo veniam quasi doloremque! Expedita, nemo facilis sint officiis explicabo fugiat quibusdam dignissimos, eum cumque animi esse nesciunt eveniet neque unde, error perspiciatis modi ab architecto optio quasi fugit dolorem placeat inventore. Accusamus, quidem? Quia consequatur perferendis dolore maxime, fuga aspernatur minus inventore possimus totam voluptatum saepe recusandae? Eveniet cupiditate atque ratione sunt aperiam rerum corrupti voluptates eaque neque maiores fugiat mollitia, quidem, placeat animi rem, sapiente exercitationem nulla ipsa ipsam harum voluptatem! Sequi doloribus vel voluptatibus!</p>
+                    <p>Quis nisi repellat est quam eum fuga, voluptate sequi, soluta ratione labore ducimus inventore voluptatibus amet. Mollitia aliquid quod eaque. Harum, omnis autem? Temporibus porro inventore ipsa error beatae sit, sint repellat quam amet modi itaque non, ea quis, laboriosam odio corrupti quas nemo. Exercitationem ut qui illo quasi fugiat voluptates quibusdam est molestias officia eligendi neque quisquam nam doloremque dolorem nemo vero tenetur repellat quia eius ipsum distinctio culpa, amet expedita. Culpa exercitationem distinctio id earum. Possimus voluptate inventore voluptatem exercitationem cumque quisquam eaque, labore blanditiis dolores facere totam? Commodi consequuntur dolores neque nihil debitis, velit asperiores eveniet! Dignissimos!</p>
+                    <p>Eaque soluta fuga deserunt voluptas autem enim dolorem, ratione consequatur quia voluptatum eum, a quaerat alias qui laudantium, rem officiis nostrum laborum? Accusamus reprehenderit est minima ad beatae quos maiores exercitationem ut sint iste, soluta suscipit! Error, nam! Quo impedit harum enim voluptatibus praesentium, nam esse veritatis repudiandae, ullam quaerat vitae, est tempora natus delectus architecto laborum obcaecati odio. Ducimus illum quod quam, dolore, ut nulla ad, eligendi corrupti veritatis quas enim asperiores consectetur consequuntur tempora nostrum quos natus? Suscipit, ex? Voluptatibus sed eligendi quam molestias! Deleniti, assumenda rem rerum nam amet cumque id ea omnis recusandae ex consequatur quibusdam.</p>
+                </article>
+                <article class="parrafos">
+                    <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nesciunt odio sunt! Exercitationem molestias nihil pariatur perferendis dicta soluta quia distinctio ut dolorum labore explicabo officiis inventore ullam at necessitatibus deserunt dignissimos quasi tempore ea dolor, quidem nesciunt adipisci. Sed facere accusantium repellendus, quia ab earum enim sapiente vitae. A beatae veniam nostrum neque eligendi reprehenderit porro quae, iste repellat earum temporibus repellendus facilis sed tempora fugiat doloribus aliquam esse voluptatum, ratione aperiam, animi modi provident voluptatem! Dolor, iste magnam.</p>
+                    </div>
+                    <div>
+                        <p>Fugiat blanditiis assumenda deserunt porro nemo corporis culpa, modi veritatis voluptatum facilis expedita, quisquam voluptatibus repellendus nam at repellat tempora esse incidunt ipsa itaque perferendis magni eligendi. Doloribus vitae voluptatum molestiae harum quam nisi expedita similique officia </p>
+                    </div>
+                    <div>
+                        <p>Adipisci, perferendis provident. Quae ea vel cum praesentium. Laboriosam, odio eveniet amet impedit in inventore corrupti eaque quasi mollitia blanditiis dolore tempore voluptatibus alias tenetur quod eligendi illum aliquid beatae, repellat facere praesentium tempora laborum! Nostrum vero in fuga, provident omnis excepturi laborum ea aperiam veniam mollitia numquam totam tempora sequi reprehenderit quod vitae. Quos voluptas eos magni, repudiandae praesentium quis itaque eaque sed inventore aliquid non blanditiis suscipit? Distinctio animi a alias expedita, facilis unde voluptate. Exercitationem, aliquid. Natus.</p>
+                    </div>
+    
+                </article>
+            </section>
+        </section>
+
+    </main>
+    
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/* 
+
+div img{
+    position: absolute;
+  
+}
+
+
+div h3{
+    position: relative;
+    top: 17px;
+    left: 165px;
+    color: #fff;
+    font-size: 2em;
+}
+
+div hr{
+    height: 20px;
+    background-image: radial-gradient(circle at 61.55% 36.23%, #c8d3d3 0, #e2dad68c 25%, #d3cdcf 50%, #afaaaa 75%, #afaaaa 100%);
+    width: 60%;
+    margin-top: -35px;
+    border: none;
+    border-radius: 10px;
+}
+ */

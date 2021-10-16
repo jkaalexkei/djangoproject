@@ -1,0 +1,66 @@
+{% block content %}
+
+
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <form class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-4">Hardware</h2>
+                    <hr>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="usuario" class="form-label">Identificación:</label>
+                    <input type="text" class="form-control" id="usuario" placeholder="ingrese identificador">
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="nombre" class="form-label">Tipo:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccione</option>
+                        <option value="1">Procesamiento</option>
+                        <option value="2">Almacenamiento</option>
+                        <option value="3">Periférico de Entrada</option>
+                        <option value="4">Periférico de Salida</option>
+                        <option value="5">Periférico de Entrada y Salida</option>
+                    </select>
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-2">
+                    <label for="floatingTextarea">Descripción:</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <!-- <label for="floatingTextarea">Descripción:</label> -->
+                      </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="marca" class="form-label">Marca:</label>
+                    <input type="text" class="form-control" id="marca" placeholder="Ingrese la Marca">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="modelo" class="form-label">Modelo:</label>
+                    <input type="text" class="form-control" id="modelo" placeholder="Ingrese el Modelo">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="serial" class="form-label">Serial:</label>
+                    <input type="text" class="form-control" id="serial" placeholder="Ingrese el número de serie">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 mt-2">
+                    <label for="floatingTextarea">Observación:</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <!-- <label for="floatingTextarea">Descripción:</label> -->
+                      </div>
+                </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary mt-2">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+{% endblock  %}

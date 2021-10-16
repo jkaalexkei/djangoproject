@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-;
+}
+
+div{
+    background-image: url('https://www.rnz.de/cms_media/module_img/1382/691021_1_org_image_674d19cea9478827.jpg');
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+div nav,p{
+    background-color: yellow;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    text-transform: ;
+    
+}
+
+div nav{
+    height: 100px;
+    width: 20%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+section > p{
+    text-align: center;
+    width: 40%;
+    align-self: center;
+    
+}
+
+div > p{
+    text-align: right;
+    width: 10PX;
+    align-self: flex-end;
+}
+
+section{
+    color: #fbecea
+    #e72026
+    
+    #f19a9a
+    
+    #d95e60
+    #af4440
+    #d0514e
+    #f1ac9c
+    #f1eb8ae1
+    #e72026
+    yellow
+    ;
+}
+
+.flex-control-thumbs img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.flex-control-thumbs img:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.flex-control-thumbs img:last-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
