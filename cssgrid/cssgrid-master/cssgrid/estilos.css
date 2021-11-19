@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #e9ecf4;
+    color:#000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+.contenedor{
+    width:90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+}
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .widget_uno,
+.contenedor .widget_dos,
+.contenedor .footer{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.contenedor .header{
+    background-color:#12203E;
+    color:#fff;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}/*se usa el -1 para indicar que abarque todo el ancho disponible*/
+
+.contenedor .contenido{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column:span 2;/*abarque dos columnas*/
+}
+
+
+.contenedor .sidebar{
+    /* grid-column-start: 3;
+    grid-column-end:4; */
+
+    grid-column: 3 / 4; /*se le indica la columna donde inicia / columna donde termina */
+
+    background-color: tomato;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+    min-height: 100px;
+}
+
+.contenedor .widget_uno,.contenedor .widget_dos{
+    background-color: royalblue;
+    color:#fff;
+    height: 100px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.contenedor .footer{
+    background-color: #12203E;
+    color:#fff;
+    grid-column: 1 / -1;
+    height: 50px;
+}
+
+@media screen and (max-width:768px){
+    .contenedor .contenido{
+        grid-column: 1 / -1;
+    }
+
+    .contenedor .sidebar{
+        grid-column: 1 / -1;
+    }
+
+    .contenedor .widget_uno{
+        grid-column: span 2;
+    }
+
+    .contenedor .widget_dos{
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,49 @@
+header h2 {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+}
+header img {
+  width: 100%;
+  padding: 5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.estructura {
+  width: 50%;
+  padding: 2px;
+  background-color: darkblue;
+  height: 200px;
+}
+section {
+  width: 50%;
+  padding: 2px;
+  background-color: darkblue;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section p {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+}
+footer div {
+  background-color: yellow;
+  text-align: center;
+}
+footer div img {
+  width: 50%;
+  margin: auto;
+}

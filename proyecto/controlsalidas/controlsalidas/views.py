@@ -12,6 +12,10 @@ def inicio(request):
         'saludo': saludo,
     })
 
+def login(request):
+    return render(request,'login.html',{
+        
+    })
 
 
 
