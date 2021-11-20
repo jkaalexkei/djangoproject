@@ -111,13 +111,43 @@ body{
     padding: 5px;
 }
 
-.filauno img{
-    width: 15%;
-    height: auto;
+.filauno .imgcafe{
+    width: 18%;
+    height: 35rem;
     border-radius: 10px;
     /* box-shadow: 1px 1px 10px 1px #3d1868; */
     
 }
+
+.filauno .imggaseosas{
+    width: 18%;
+    height: 35rem;
+    border-radius: 10px;
+}
+.filauno .imgagua{
+    width: 10rem;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.filauno .imgfritura{
+    width: 20%;
+    height: 35rem;
+    border-radius: 10px;
+}
+.filauno .imgpanaderia{
+    width: 18%;
+    height: 35rem;
+    border-radius: 10px;
+}
+.filauno .imgjugos{
+    width: 18%;
+    height: 35rem;
+    border-radius: 10px;
+}
+
+
+
 
 .contenedor .contenido .description{
     grid-area: descripcion;
