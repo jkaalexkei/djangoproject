@@ -10,7 +10,8 @@ body{
     
     background-size: 100% 100%;
     background-attachment: fixed;
-   
+    
+    
 }
 
 .contenedor{
@@ -111,8 +112,16 @@ body{
     padding: 10px;
 }
 
-.filauno img{
-    width: 17%;
+.filauno a{
+    width:17%;
+    height: auto;
+    display: block;
+}
+
+
+
+.filauno a img{
+    width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px #3d1868;
@@ -129,11 +138,18 @@ body{
     
 }
 
-.filados img{
+.filados a{
     width: 18%;
     height: auto;
+    display: inline-block;
+    margin-right: 7%;
+}
+
+.filados a img{
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-right: 105px;
+   
     box-shadow: 1px 1px 10px 1px #3d1868;
 }
 
@@ -155,6 +171,106 @@ body{
     text-align: center;
     color: #fff;
 }
+
+.contenedorlogin{
+    
+    width: 100%;
+    height: 100vh;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedorlogin .zonalogin{
+    background-color: #e3deeb75;
+    border: 1px solid;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: "titulo"
+                         "section"
+                         "pie";
+    width: ;  
+    
+}
+
+.contenedorlogin .zonalogin .title{
+    grid-area: titulo;
+    margin: auto;
+}
+
+.contenedorlogin .zonalogin .cuerpo{
+    grid-area: section;
+    margin: auto;
+}
+
+.contenedorlogin .zonalogin .cuerpo form{
+
+}
+
+.contenedorlogin .zonalogin .cuerpo form label{
+    display: block;
+
+    border: 1px solid;
+    
+}
+
+.contenedorlogin .zonalogin .cuerpo form input{
+    display: block;
+
+    border: 1px solid;
+    
+}
+/* 
+label{
+    display: block;
+} */
+/* 
+input{
+    display: block;
+} */
+
+
+
+
+.contenedorlogin .zonalogin .useradmin{
+    grid-area: pie;
+    text-align: right;
+}
+
+
+
+/* 
+.contenedorlogin .zonalogin{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-gap: 20px;
+    grid-template-areas: "titulo"
+                         "seccionprincipal"
+                         "piedeseccion";
+    background-color: #e3deeb75;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    
+}
+
+.contenedorlogin .zonalogin .title{
+    grid-area: titulo;
+}
+
+.contenedorlogin .cuerpo{
+    grid-area: seccionprincipal;
+}
+
+.contenedorlogin .zonalogin .useradmin{
+    grid-area: piedeseccion;
+}
+ */
 
 
 

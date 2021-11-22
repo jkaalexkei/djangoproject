@@ -109,40 +109,96 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
+    height: 60%;
+    /* border: 1px solid; */
+    text-align: center;  
 }
 
-.filauno .imgcafe{
-    width: 18%;
-    height: 35rem;
+.filauno div .imgcafe{
+    /* width: 18%;
+    height: 35rem; */
     border-radius: 10px;
     /* box-shadow: 1px 1px 10px 1px #3d1868; */
     
 }
 
-.filauno .imggaseosas{
-    width: 18%;
-    height: 35rem;
+.filauno div .imggaseosas{
+    /* width: 18%;
+    height: 35rem; */
     border-radius: 10px;
 }
-.filauno .imgagua{
-    width: 10rem;
-    height: auto;
+
+.filauno div{
+    /* border: 1px solid; */
+    
+
+}
+
+.filauno div div{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    
+}
+
+.filauno div div .mas{
+    width: 40px;
+    background-color: #531191;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.filauno div div .mas:active{
+    background-color:#663099 ;
+}
+
+.filauno div div .menos:active{
+    background-color:#663099 ;
+}
+
+.filauno div div .menos{
+    width: 40px;
+    background-color: #531191;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.filauno div div input{
+    width: 60px;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+}
+
+
+
+
+
+
+.filauno div .imgagua{
+    /* width: 10rem;
+    height: auto; */
     border-radius: 10px;
     
 }
-.filauno .imgfritura{
-    width: 20%;
-    height: 35rem;
+.filauno div .imgfritura{
+    
     border-radius: 10px;
 }
-.filauno .imgpanaderia{
-    width: 18%;
-    height: 35rem;
+.filauno div .imgpanaderia{
+    /* width: 18%;
+    height: 35rem; */
     border-radius: 10px;
 }
-.filauno .imgjugos{
-    width: 18%;
-    height: 35rem;
+.filauno div .imgjugos{
+    /* width: 18%;
+    height: 35rem; */
     border-radius: 10px;
 }
 
@@ -181,13 +237,13 @@ body{
     
 }
 
-.contenido .titulo{
+.contenido .title{
     grid-area: titulo;
     text-align: center;
     
 }
 
-.contenido .titulo h2{
+.contenido .title h2{
     color: #fff;
     font-size: 4em;
     font-family: Georgia, 'Times New Roman', Times, serif;
