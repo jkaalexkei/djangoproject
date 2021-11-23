@@ -9,7 +9,23 @@
     <title>Inicio</title>
 </head>
 <body>
-    <main class="contenedorlogin">
+    <main class="contenedor">
+        <div class="cabecera">
+            <div class="logo">
+                <img src="../img/lacigarra.png" alt="">
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="../templates/categorias.html">Inicio</a></li>
+                    <li><a href="../templates/categorias.html">Categorias</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <span hidden="true"></span>
+                    <!-- <li><a href="#"><i class="far fa-user"></i>&nbsp; Login</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <div class="contenedorlogin">
         <div class="zonalogin">
             <div class="title">
                 <h2>Inicio de Sesión</h2>
@@ -20,14 +36,14 @@
                     <input type="text" placeholder="Ingrese Usuario">
                     <label for="">Contraseña</label>
                     <input type="text" placeholder="Ingrese Password">
-                    <input type="submit" value="Iniciar">
+                    <input class="boton" type="submit" value="Iniciar">
                 </form>
             </div>
             <div class="useradmin">
                 <h5><a href="">Usuario Administrador</a></h5>
             </div>
         </div>
-    </main>
+    </div>
         
         <div class="pie">
             <p>Copyright © 2021 Gaseosas la Cigarra</p>
