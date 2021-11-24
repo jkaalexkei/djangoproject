@@ -12,14 +12,14 @@
     <main class="contenedor">
         <div class="cabecera">
             <div class="logo">
-                <img src="../img/lacigarra.png" alt="">
+                <img src="../img/lacigarranavidad.png" alt="">
             </div>
             <nav class="navegacion">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="../templates/inicio.html">Inicio</a></li>
                     <li><a href="../templates/categorias.html">Categorias</a></li>
                     <li><a href="#">Contactos</a></li>
-                    <li><a href="#"><i class="far fa-user"></i>&nbsp; Login</a></li>
+                    <li><a href="../templates/login.html"><i class="far fa-user"></i>&nbsp; Login</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,29 +31,32 @@
                 <div>
                     <img class="imgagua" src="../img/aguamineral.png" alt="">
                     <div>
-                        <button type="button" class="mas">+</button><input type="text"><button type="button" class="menos">-</button>
+                        <button id="mas1" type="button" class="mas">+</button><input id="input1" type="text" value="0" readonly><button id="menos1" type="button" class="menos">-</button>
                     </div>
                 </div>
                 
                 <div>
                     <img class="imgagua" src="../img/aguamineral.png" alt="">
                     <div>
-                        <button type="button" class="mas">+</button><input type="text"><button type="button" class="menos">-</button>
+                        <button id="mas2" type="button" class="mas">+</button><input id="input2" type="text" value="0" readonly><button id="menos2" type="button" class="menos">-</button>
                     </div>
                 </div>
 
                 <div>
                     <img class="imgagua" src="../img/aguamineral.png" alt="">
                     <div>
-                        <button type="button" class="mas">+</button><input type="text"><button type="button" class="menos">-</button>
+                        <button id="mas3" type="button" class="mas">+</button><input id="input3" type="text" value="0" readonly><button id="menos3" type="button" class="menos">-</button>
                     </div>
                 </div>
                 <div>
                     <img class="imgagua" src="../img/aguamineral.png" alt="">
                     <div>
-                        <button type="button" class="mas">+</button><input type="text"><button type="button" class="menos">-</button>
+                        <button id="mas4" type="button" class="mas">+</button><input id="input4" type="text" value="0" readonly><button id="menos4" type="button" class="menos">-</button>
                     </div>
                 </div>
+            </div>
+            <div class="btnpedido">
+                <input class="btn" type="button" value="Ordenar">
             </div>
             <div class="description">
                 <h2>Descripción</h2>
@@ -65,5 +68,6 @@
             <p>Copyright © 2021 Gaseosas la Cigarra</p>
         </div>
     </main>
+    <script src="../js/javascript.js"></script>
 </body>
 </html>

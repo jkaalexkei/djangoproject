@@ -109,8 +109,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
-    height: 60%;
-    /* border: 1px solid; */
+    height: auto;
+   
     text-align: center;  
 }
 
@@ -143,7 +143,7 @@ body{
 
 .filauno div div .mas{
     width: 40px;
-    background-color: #531191;
+    background-color: #3d1868;
     color: #fff;
     border: none;
     border-top-left-radius: 10px;
@@ -160,7 +160,7 @@ body{
 
 .filauno div div .menos{
     width: 40px;
-    background-color: #531191;
+    background-color: #3d1868;
     color: #fff;
     border: none;
     border-top-right-radius: 10px;
@@ -186,7 +186,14 @@ body{
     height: auto; */
     border-radius: 10px;
     
+    
 }
+
+.filauno div .imgagua:hover{
+    transform: rotate(10deg);
+    transition: all 2s;
+}
+
 .filauno div .imgfritura{
     
     border-radius: 10px;
@@ -200,6 +207,27 @@ body{
     /* width: 18%;
     height: 35rem; */
     border-radius: 10px;
+}
+
+.contenido .btnpedido{
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.btnpedido .btn{
+    width: 200px;
+    height: 50px;
+    background-color: #3d1868;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4em;
+    font-family:'Times New Roman', Times, serif
+}
+
+.btnpedido .btn:active{
+    background-color: #663099;
 }
 
 
