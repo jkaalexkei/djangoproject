@@ -73,10 +73,10 @@ body{
     display: inline-block;
     list-style-type: none;
 }
-
+/* 
 .navegacion ul li:last-child{
     margin-left: auto;
-}
+} */
 
 .navegacion ul .item{
     display: none;
@@ -319,6 +319,37 @@ body{
 .pie p{
     color: #fff;
     text-align: center;
+}
+
+
+.contenedor .pie {
+    grid-area: footer;
+    text-align: center;
+    color: #fff;
+    /* border: 1px solid; */
+}
+
+.pie .redessociales {
+    margin: 10px;
+    /* border: 1px solid; */
+}
+
+.redessociales ul {
+    margin: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.redessociales ul li {
+    list-style-type: none;
+}
+
+.redessociales ul li a {
+    color: #fff;
+    margin: 20px;
+    font-size: 2em;
 }
 
 /* 
