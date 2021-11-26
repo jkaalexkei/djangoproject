@@ -179,9 +179,94 @@ video{
     margin: auto;
     padding: 50px;
     border-radius: 10px;
+}
 
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section .seccionuno{
+    background-color: #ff510059;
+    box-shadow: 1px 1px 10px 1px #3d1868;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px;
 
 }
+
+.section .seccionuno .subtitulo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section .seccionuno .parrafo{
+    width: 100%;
+}
+
+.section .seccionuno .parrafo p{
+    width: 100%;
+
+}
+
+
+.section .secciondos{
+    background-color: #332d1c70;
+    box-shadow: 1px 1px 10px 1px #3d1868;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.section .secciondos .subtitulo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section .secciondos .parrafo{
+    width: 100%;
+}
+
+.section .secciondos .parrafo p{
+    width: 100%;
+    
+}
+
+
+.section .secciontres{
+    background-color: #ffff003a;
+    box-shadow: 1px 1px 10px 1px #3d1868;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.section .secciontres .subtitulo{
+    
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section .secciontres .parrafo{
+    
+    width: 100%;
+}
+
+.section .secciontres .parrafo p{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
 
 .filados .subtitulo {
     width: 30%;
@@ -191,7 +276,7 @@ video{
 
 .filados .subtitulo h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #3d1868;
     text-shadow: 1px 1px 1px #fff;
@@ -213,13 +298,49 @@ video{
 
 .filados .imagen {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .filados .imagen img {
-    width: 40%;
+    width: 46%;
+    margin: 10px auto;
     height: auto;
-    border-radius: 150px;
+    border-radius: 10px;
     box-shadow: 1px 1px 10px 1px #3d1868;
+}
+
+.filados .imagen .div{
+   
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.filados .imagen .div h3{
+    width: 100%;
+    color: #3d1868;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: 'Rakkas', cursive;
+    margin: 20px;
+}
+
+.filados .imagen .div ul{
+    padding: 20px;
+}
+
+.filados .imagen .div ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.2em;
+    color: #3d1868;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: 'Rakkas', cursive;
 }
 
 .contenedor .piedepagina {
