@@ -10,6 +10,7 @@ body {
 
     background-size: 100% 100%;
     background-attachment: fixed;
+    
 
 
 }
@@ -20,7 +21,6 @@ video{
     position:fixed;
     min-width: 100%;
     min-height: 100%;
-    
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -164,9 +164,8 @@ video{
 }
 
 .filauno a img:hover {
-    transform: translateX(10px) rotate(-10deg) translateY(5px);
-
-    transition: all 2s;
+    transform: scale(1.15,1.15);
+    transition: 2s;
 }
 
 .contenedor .contenido .filados {
@@ -278,8 +277,8 @@ video{
     text-align: center;
     font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #3d1868;
-    text-shadow: 1px 1px 1px #fff;
+    color: #fff;
+    text-shadow: 1px 1px 1px #3d1868;
 }
 
 .filados .parrafo {
@@ -288,11 +287,13 @@ video{
 }
 
 .filados .parrafo p {
-    color: #3d1868;
+    color: #fff;
+    text-shadow: 1px 1px 1px #3d1868;
+    
     text-align: center;
     font-size: 1.2em;
     line-height: 35px;
-    text-shadow: 1px 1px 1px #fff;
+    
     font-family: 'Rakkas', cursive;
 }
 
@@ -322,12 +323,14 @@ video{
 
 .filados .imagen .div h3{
     width: 100%;
-    color: #3d1868;
+    
     text-align: center;
     font-size: 2.5em;
-    text-shadow: 1px 1px 1px #fff;
+    
     font-family: 'Rakkas', cursive;
     margin: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #3d1868;
 }
 
 .filados .imagen .div ul{
@@ -338,8 +341,8 @@ video{
     list-style-type: none;
     margin: 10px;
     font-size: 1.2em;
-    color: #3d1868;
-    text-shadow: 1px 1px 1px #fff;
+    color: #fff;
+    text-shadow: 1px 1px 1px #3d1868;
     font-family: 'Rakkas', cursive;
 }
 
@@ -601,3 +604,30 @@ video{
     text-align: center;
     color: #fff;
 }
+
+#imagenobj:hover{
+    transform: scale(1.25,1.25);
+    transition: 2s;
+    /* -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5); */
+}
+
+#i:hover{
+    transform: scale(1.25,1.25);
+    transition: 2s;
+}
+
+
+
+/* @keyframes moverin{
+    0%{
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes moverout{
+    0%{
+        transform: translateY(100%);
+    }
+} */
