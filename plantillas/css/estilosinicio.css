@@ -5,11 +5,11 @@
 
 body {
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('../img/fondocigarra.jpg');
+    font-family: 'Titan One', cursive;
+    /* background-image: url('../img/fondocigarra.jpg');
 
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     
 
 
@@ -90,7 +90,14 @@ video{
 /* 
 .navegacion ul li:last-child{
     margin-left: auto;
+    
 } */
+
+.navegacion ul .activo a{
+    color: #80106d;
+    text-shadow: 1px 1px 1px #fff;
+
+}
 
 .navegacion ul .item {
     display: none;
@@ -103,7 +110,6 @@ video{
     color: #fff;
     font-size: 1.4em;
     text-shadow: 1px 1px 1px #3d1868;
-
 }
 
 .navegacion ul li a:hover {
@@ -131,10 +137,11 @@ video{
 }
 
 .contenido .titulo h2 {
-    color: #fff;
-    font-size: 3.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 3px 1px 1px #3d1868;
+    display: none;
+    color: #f0f0f0;
+    font-size: 3.8em;
+    /* font-family: 'Luckiest Guy', cursive; */
+    text-shadow: 3px 2px 3px #80106d;
 }
 
 .contenedor .contenido .filauno {
@@ -276,9 +283,9 @@ video{
 .filados .subtitulo h2 {
     text-align: center;
     font-size: 2.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
-    text-shadow: 1px 1px 1px #3d1868;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color:#80106d;
+    text-shadow: 1px 1px 1px #cdc8d1;
 }
 
 .filados .parrafo {
@@ -294,7 +301,7 @@ video{
     font-size: 1.2em;
     line-height: 35px;
     
-    font-family: 'Rakkas', cursive;
+    /* font-family: 'Rakkas', cursive; */
 }
 
 .filados .imagen {
@@ -327,10 +334,10 @@ video{
     text-align: center;
     font-size: 2.5em;
     
-    font-family: 'Rakkas', cursive;
+    /* font-family: 'Rakkas', cursive; */
     margin: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 1px #3d1868;
+    color:#80106d;
+    text-shadow: 1px 1px 1px #cdc8d1;
 }
 
 .filados .imagen .div ul{
@@ -343,7 +350,12 @@ video{
     font-size: 1.2em;
     color: #fff;
     text-shadow: 1px 1px 1px #3d1868;
-    font-family: 'Rakkas', cursive;
+    /* font-family: 'Rakkas', cursive; */
+}
+
+.filados .imagen .div ul li strong{
+    color:#3d1868;
+    text-shadow: 1px 1px 1px #e3dfe9;
 }
 
 .contenedor .piedepagina {
@@ -500,7 +512,7 @@ video{
 
 .cuerpo .formulario label{
     color:#fff ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     text-shadow: 1px 1px 1px #3d1868;
     padding: 10px;
     font-size: 1.8em;
@@ -509,7 +521,7 @@ video{
 .cuerpo .formulario input[type=text]{
     padding: 5px;
     font-size: 1.2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     width: 95%;
     border-radius: 8px;
     border: none;
@@ -521,7 +533,7 @@ video{
 .cuerpo .formulario select{
     padding: 5px;
     font-size: 1.2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     width: 97%;
     border-radius: 8px;
     border: none;
@@ -617,7 +629,17 @@ video{
     transition: 2s;
 }
 
+video{
+    z-index: -1;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 
+}
 
 /* @keyframes moverin{
     0%{
